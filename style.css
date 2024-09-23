@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 41px;
+    width: 1193px;
+}
+
+.header__links {
+    display: flex;
+    margin-top: 8px;
+}
+
+.header__menu-links-list {
+    display: flex;
+    list-style: none;
+}
+
+.header__menu-list-item {
+    margin: 0 35px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.header__link {
+    text-decoration: none;
+}
+
+.header__social-logo:nth-child(2) {
+    margin: 0 20px;
+}
