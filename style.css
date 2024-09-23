@@ -8,7 +8,9 @@
 
 .page {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .header {
@@ -42,4 +44,43 @@
 
 .header__social-logo:nth-child(2) {
     margin: 0 20px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    width: 1204px;
+    margin-top: 220px;
+}
+
+.title__text {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 70px;
+    letter-spacing: -1px;
+    color: #42446d;
+}
+
+.title__text-gradient {
+    background-image: linear-gradient(to right,#13B0F5, #E70FAA);
+    color: transparent;
+    background-clip: text;
+}
+
+.title__image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 349px;
+    height: 349px;
+    background: linear-gradient(#13B0F5, #E70FAA);
+    border-radius: 50%;
+}
+
+.title__image {
+    width: 95%;
+    height: 95%;
+    object-fit: cover;
+    border-radius: 50%;
 }
