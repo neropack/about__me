@@ -42,7 +42,7 @@
     text-decoration: none;
 }
 
-.header__social-logo:nth-child(2) {
+.header__social-link:nth-child(2) {
     margin: 0 20px;
 }
 
